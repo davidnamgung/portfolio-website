@@ -20,74 +20,109 @@
         </ul>
     </nav>
 
-    <header id="hero" class="fade-in">
-        <div class="hero-content">
+<header id="hero" class="fade-in">
+    <div class="hero-container">
+        <div class="hero-text">
             <h1>David Namgung</h1>
             <h2>Aspiring Data Professional</h2>
-            <p>From Zero to Hero.</p>
-            <p>Translating complex data into actionable insights through statistical analysis, predictive modeling, and clean database design.</p>
+            <p class="tagline">From Zero to Hero.</p>
+            <p class="description">Translating complex data into actionable insights through statistical analysis, predictive modeling, and clean database design.</p>
+            
+            <a href="#about" class="cta-button">Learn More About Me</a>
+            <a href="David_Namgung_Resume.pdf" target="_blank" class="cta-button secondary-btn"><i class="fas fa-file-pdf"></i> Download Resume</a>
         </div>
-    </header>
+
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="hallyu.jpg" alt="David Namgung">
+            </div>
+        </div>
+    </div>
+</header>
 
     <section id="projects" class="fade-in">
         <h2 class="section-title">My Projects</h2>
         
         <div class="project-card">
             <div class="project-image">
-                <img src="medical-insurance-cost-prediction-image.png" alt="" class="card-img">
+                <img src="medical-insurance-cost-prediction-image.png" alt="Medical Insurance Project" class="card-img" loading="lazy">
             </div>
             <div class="project-info">
                 <h3>Predicting Medical Insurance Costs: A Data-Driven Approach</h3>
                 <p class="project-date">March 2026</p>
                 <p>Developed an end-to-end machine learning pipeline using R and Tableau to analyze and predict medical insurance premiums based on patient demographics. Trained and evaluated predictive models (Random Forest and Linear Regression) to uncover complex health variable interactions, minimizing RMSE for highly accurate cost forecasting.</p>
+                <div class="project-tech-tags">
+                    <span class="mini-tag">R</span>
+                    <span class="mini-tag">Tableau</span>
+                    <span class="mini-tag">Random Forest</span>
+                    <span class="mini-tag">Regression</span>
+                </div>
                 <a href="https://davidnamgung.github.io/medical-insurance-prediction/reports/" class="btn">Read Full Report &rarr;</a>
+                <a href="https://github.com/davidnamgung/medical-insurance-prediction?tab=readme-ov-file" class="btn">GitHub &rarr;</a>
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-image">
-                <img src="gasoline-mileage-image.png" alt="" class="card-img">
+                <img src="gasoline-mileage-image.png" alt="" class="card-img" loading="lazy">
             </div>
             <div class="project-info">
                 <h3>Statistical Analysis & Predictive Modeling on Fuel Efficiency Forensics in R</h3>
                 <p class="project-date">December 2025</p>
                 <p>Engineered and optimized Multiple Linear Regression models in R to forecast vehicle fuel efficiency. Applied rigorous statistical methodologies—including ANOVA, 5-Fold Cross-Validation, and Hypothesis Testing—to isolate performance drivers and translate complex diagnostics into actionable reliability insights.</p>
+                <div class="project-tech-tags">
+                    <span class="mini-tag">R</span>
+                    <span class="mini-tag">ggplot2</span>
+                    <span class="mini-tag">R-Squared</span>
+                    <span class="mini-tag">Regression</span>
+                    <span class="mini-tag">Intervals</span>
+                </div>
                 <a href="https://davidnamgung.github.io/gasoline-mileage-project/" class="btn">Read Full Report &rarr;</a>
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-image">
-                <img src="moto-parts-image.png" alt="" class="card-img">
+                <img src="moto-parts-image.png" alt="" class="card-img" loading="lazy">
             </div>
             <div class="project-info">
                 <h3>Motorcycle Parts Sales Exploratory Analysis via SQL and Jupyter Notebook</h3>
                 <p class="project-date">February 2026</p>
                 <p>Executed an exploratory data analysis using SQL and Jupyter Notebook to identify critical margin leakage in sales data. Translated complex queries into a stakeholder-ready technical report, proposing data-backed strategic shifts in B2B payment terms and B2C incentive structures.</p>
+                <div class="project-tech-tags">
+                    <span class="mini-tag">SQL</span>
+                    <span class="mini-tag">Jupyter Notebook</span>
+                </div>
                 <a href="https://davidnamgung.github.io/motorcycle-parts/" class="btn">Read Full Report &rarr;</a>
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-image">
-                <img src="mental-health-students-image.png" alt="" class="card-img">
+                <img src="mental-health-students-image.png" alt="" class="card-img" loading="lazy">
             </div>
             <div class="project-info">
                 <h3>Analyzing 2019 Japanese Student’s Mental Health</h3>
                 <p class="project-date">February 2026</p>
                 <p>Designed an end-to-end SQL data pipeline to clean, validate, and analyze mental health trends among 270+ international students. Published a dynamic, fully reproducible technical report utilizing Quarto and R Markdown to ensure data integrity and transparent methodology.</p>
+                <div class="project-tech-tags">
+                    <span class="mini-tag">SQL</span>
+                </div>
                 <a href="https://davidnamgung.github.io/mental-health-sql-portfolio-project/" class="btn">Read Full Report &rarr;</a>
             </div>
         </div>
 
         <div class="project-card">
             <div class="project-image">
-                <img src="injury-athlete-image.png" alt="" class="card-img">
+                <img src="injury-athlete-image.png" alt="" class="card-img" loading="lazy">
             </div>
             <div class="project-info">
                 <h3>Injury Survey Amongst Dragon Boat Student-Athletes</h3>
                 <p class="project-date">April 2025</p>
                 <p>Conducted a collaborative data collection and statistical analysis project focusing on injury prevention among 150+ student-athletes. Leveraged Excel to clean, process, and analyze complex survey variables, assessing factor correlations to deliver a comprehensive, article-style insights report.</p>
+                <div class="project-tech-tags">
+                    <span class="mini-tag">Excel</span>
+                </div>
                 <a href="https://pdflink.to/5c76187e/" class="btn">Read Full Report &rarr;</a>
             </div>
         </div>
@@ -376,29 +411,42 @@
 
     <section id="about" class="fade-in">
         <h2 class="section-title">About Me</h2>
-        
-        <div class="about-professional">
-            <h3>The Beginning of my Journey</h3>
-            <p>I began my journey in Computer Science at McGill with a clean slate—zero 
-                prior coding experience, but a drive to build. While I respected the logic 
-                of software, it wasn’t until I was tasked with analyzing my Dragon Boat 
-                team’s fitness metrics that I found my 'why.' I realized I didn't 
-                just want to write code; I wanted to extract meaning from it. 
-                Recognizing the specialized nature of data science, I took ownership of 
-                my education—pairing my CS degree with a Minor in Statistics and 
-                pursuing rigorous self-study in Machine Learning. Today, I translate 
-                that curiosity into end-to-end data projects that solve real-world problems.</p>
-        </div>
 
-        <div class="about-personal">
-            <h3>Beyond the Data</h3>
-            <p>I’m David, a Montreal native with a passion for a high-energy lifestyle! I love to do many different activities and take risks.
-                Outside the world of data, I am a competitive Dragon Boat paddler. I have competed in several competitions throughout 4 years, 
-                bringing home tons of memories and victories with my teams.
-                This sport is more than just a hobby for me; it’s where I’ve honed my leadership 
-                and collaboration skills in a high-pressure environment. I thrive in settings that 
-                value community and collective effort, 
-                and I carry that 'all-in' mentality from the water to my development projects.</p>
+        <div class="about-container">
+            <div class="about-text">
+                <div class="story-block">
+
+                    <h3>The Beginning of my Journey</h3>
+                        <p>I began my journey in Computer Science at McGill with a clean slate, zero 
+                        prior coding experience, but a drive to build. While I respected the logic 
+                        of software, it wasn’t until I was tasked with analyzing my Dragon Boat 
+                        team’s fitness metrics that I found my 'why.' I realized I didn't 
+                        just want to write code; I wanted to extract meaning from it. 
+                        Recognizing the specialized nature of data science, I took ownership of 
+                        my education, pairing my CS degree with a Minor in Statistics and 
+                        pursuing rigorous self-study in Machine Learning, Data Analytics, and Data Science. Today, I translate 
+                        that curiosity into end-to-end data projects that solve real-world problems.</p>
+        
+                </div>
+                <div class="story-block">
+                    <h3>Beyond the Data</h3>
+                    <p>I’m David, a Montreal native with a passion for a high-energy lifestyle! I love to do many different activities and take risks.
+                    Outside the world of data, I am a competitive Dragon Boat paddler. I have competed in several competitions throughout 4 years, 
+                    bringing home tons of memories and victories with my teams.
+                    This sport is more than just a hobby for me; it's my life's passion and where I’ve honed my leadership, teamwork and collaboration skills in a high-pressure environment. I thrive in settings that 
+                    value community and collective effort, 
+                    and I carry that 'all-in' mentality from the water to my development projects.</p>
+                </div>
+            </div>
+            <div class="about-photos">
+                <div class="photo-frame headshot">
+                    <img src="pro-pic.jpg" alt="David - Data Analyst">
+                </div>
+
+                <div class="photo-frame athletic">
+                    <img src="dboat-pic.jpg" alt="David - Dragon Boat Racing">
+                </div
+            </div>
         </div>
     </section>
 
