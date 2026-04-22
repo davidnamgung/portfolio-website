@@ -34,17 +34,17 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: rgba(18, 18, 18, 0.95);
+    background-color: #02182B;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    border-bottom: 1px solid #333;
+    border-bottom: 3px solid #D7263D;
 }
 
 .logo {
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-weight: 800;
+    letter-spacing: 3px;
 }
 
 .nav-links {
