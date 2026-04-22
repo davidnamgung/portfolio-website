@@ -1,9 +1,9 @@
 /* --- Global Variables & Reset --- */
 :root {
-    --bg-color: #121212;
+    --bg-color: #02182B;
     --surface-color: #1e1e1e;
-    --text-primary: #f5f5f5;
-    --text-secondary: #b3b3b3;
+    --text-primary: #D7263D;
+    --text-secondary: #f5f5f5;
     --accent-color: #fca311;
     /* Add this line below: A premium, snappy ease-out curve */
     --smooth-transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); 
