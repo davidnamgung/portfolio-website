@@ -833,3 +833,45 @@ section {
     border-radius: 12px;
     border: 1px solid #444;
 }
+
+
+
+
+
+
+
+/* =========================================
+   GOOGLE TRANSLATE WIDGET STYLING
+   ========================================= */
+
+/* Blends the dropdown into your navbar */
+.translate-btn {
+    display: flex;
+    align-items: center;
+}
+
+/* Hides the Google logo and extra text to keep it minimal */
+.goog-te-gadget {
+    color: transparent !important;
+    font-size: 0;
+}
+
+.goog-te-gadget .goog-te-combo {
+    background-color: var(--surface-color);
+    color: var(--text-primary);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    padding: 5px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Hides the top banner Google sometimes forces on translated pages */
+.goog-te-banner-frame {
+    display: none !important;
+}
+body {
+    top: 0 !important; /* Prevents the page from jumping down */
+}
