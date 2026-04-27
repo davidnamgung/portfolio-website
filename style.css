@@ -841,37 +841,32 @@ section {
 
 
 /* =========================================
-   GOOGLE TRANSLATE WIDGET STYLING
+   CUSTOM TRANSLATE TOGGLE
    ========================================= */
 
-/* Blends the dropdown into your navbar */
-.translate-btn {
-    display: flex;
-    align-items: center;
-}
-
-/* Hides the Google logo and extra text to keep it minimal */
-.goog-te-gadget {
-    color: transparent !important;
-    font-size: 0;
-}
-
-.goog-te-gadget .goog-te-combo {
-    background-color: var(--surface-color);
-    color: var(--text-primary);
-    border: 1px solid var(--accent-color);
-    border-radius: 4px;
-    padding: 5px;
-    font-family: 'Outfit', sans-serif;
-    font-size: 0.9rem;
-    cursor: pointer;
-    outline: none;
-}
-
-/* Hides the top banner Google sometimes forces on translated pages */
+/* Hides the default Google dropdown and top banner completely */
+#google_translate_element,
 .goog-te-banner-frame {
     display: none !important;
 }
+
 body {
     top: 0 !important; /* Prevents the page from jumping down */
+}
+
+/* Styles your new custom toggle button */
+.custom-translate-btn {
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--text-primary);
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: var(--smooth-transition);
+    display: inline-block;
+}
+
+/* Reverses colors when hovered for a nice tactile feel */
+.custom-translate-btn:hover {
+    background-color: var(--text-primary);
+    color: var(--bg-color) !important;
 }
